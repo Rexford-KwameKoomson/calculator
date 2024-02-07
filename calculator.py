@@ -7,10 +7,10 @@ from tkinter import Tk
 import tkinter
 
 original = Tk()
-original.title("SMS_Interface")
+original.title("**** CALCULATOR****")
 original.geometry('400x400+100+100')
 original.resizable(False,False)
-original.iconbitmap(r'car_4.ico')
+# original.iconbitmap(r'car_4.ico')
 # original.state('zoomed')
 # original.attributes('apha', 0.5)
 
@@ -48,7 +48,7 @@ def result_button():
     elif c=="*":
         ans=a*b
     else:
-        Print("The Operator is not part")
+        print("The Operator is not part")
 
      
     label_results.config(text=ans)
