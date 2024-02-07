@@ -10,11 +10,11 @@ original = Tk()
 original.title("**** CALCULATOR****")
 original.geometry('400x400+100+100')
 original.resizable(False,False)
-# original.iconbitmap(r'car_4.ico')
+original.iconbitmap(r'car_4.ico')
 # original.state('zoomed')
 # original.attributes('apha', 0.5)
 
-original['bg']="Orange"
+original['bg']="Green"
 label_widget=tkinter.Label(original,text="**** Calculations ****  \n")
 label_widget.pack()
 
