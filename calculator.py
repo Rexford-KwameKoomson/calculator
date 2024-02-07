@@ -10,7 +10,7 @@ original = Tk()
 original.title("**** CALCULATOR****")
 original.geometry('400x400+100+100')
 original.resizable(False,False)
-original.iconbitmap(r'car_4.ico')
+# original.iconbitmap(r'car_4.ico')
 # original.state('zoomed')
 # original.attributes('apha', 0.5)
 
