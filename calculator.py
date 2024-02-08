@@ -15,7 +15,7 @@ original.resizable(False,False)
 # original.attributes('apha', 0.5)
 
 original['bg']="Green"
-label_widget=tkinter.Label(original,text="**** Calculations ****  \n")
+label_widget=tkinter.Label(original,text="**** Calculator ****  \n")
 label_widget.pack()
 
 txt_first = tkinter.Entry(original)
